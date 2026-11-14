@@ -163,7 +163,7 @@ One known miss for next time: PO 4500001009 was flagged as overdue even though i
 
 ## SAP Community
 
-SAP Community blog (link coming soon): *Build a Joule Procurement Follow-up Agent in Joule Studio*.
+SAP Community blog: [Build a Joule Procurement Follow-up Agent in Joule Studio](https://community.sap.com/t5/artificial-intelligence-blogs-posts/build-a-joule-procurement-follow-up-agent-in-joule-studio/ba-p/14522351).
 
 This follows the Career Coach agent:
 
