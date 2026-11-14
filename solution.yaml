@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: po-followup-assistant-2b07b
+  version: "1.0.0"
+  description: "Read-only AI purchasing assistant that monitors open POs, flags follow-up items, ranks by urgency and value, and drafts supplier emails for buyer review."
+
+assets:
+  - ref: ./assets/po-followup-assistant-agent/asset.yaml

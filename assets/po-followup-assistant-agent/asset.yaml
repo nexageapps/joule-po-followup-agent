@@ -1,0 +1,37 @@
+apiVersion: asset.sap/v1
+kind: Asset
+type: agent
+
+metadata:
+  name: po-followup-assistant-agent
+  description: "Read-only AI agent that flags open purchase orders needing follow-up, ranks them by urgency and value, and drafts polite supplier emails for buyer review."
+  version: "1.0.0"
+
+provides:
+  apis:
+    - name: po-followup-assistant-agent
+      kind: a2a
+      ordId: customer.build:apiResource:po-followup-assistant-2b07b.po-followup-assistant-agent:v1
+
+container:
+  buildPath: .
+  port: 5000
+
+probes:
+  startup:
+    path: /.well-known/agent.json
+    periodSeconds: 5
+    timeoutSeconds: 3
+    failureThreshold: 18
+  liveness:
+    path: /.well-known/agent.json
+    initialDelaySeconds: 15
+    periodSeconds: 10
+    timeoutSeconds: 5
+    failureThreshold: 3
+  readiness:
+    path: /.well-known/agent.json
+    initialDelaySeconds: 5
+    periodSeconds: 5
+    timeoutSeconds: 3
+    failureThreshold: 3
