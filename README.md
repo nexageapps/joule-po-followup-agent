@@ -184,7 +184,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 Karthik Arjun, NexageApps.
 
-- LinkedIn: [karthik-arjun-a5b4a258](https://www.linkedin.com/in/karthik-arjun-a5b4a258/)
+- LinkedIn: [karthik-a-a5b4a258](https://www.linkedin.com/in/karthik-a-a5b4a258/)
 - GitHub: [nexageapps](https://github.com/nexageapps)
 
 *Built by [NexageApps](https://nexageapps.com).*
